@@ -284,7 +284,7 @@ extern "C" void app_main() {
 
   touchpads_init(button_tapped, /*test_button_touched*/ nullptr);
 
-  setenv("TZ", "EST5EDT,M3.2.0,M11.1.0", 1);
+  setenv("TZ", "CST6CDT,M3.2.0,M11.1.0", 1);
   tzset();
 
   clock::get();
